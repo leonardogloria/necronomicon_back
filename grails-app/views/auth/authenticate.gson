@@ -1,0 +1,8 @@
+import model.AuthVO
+
+model{
+    AuthVO authed
+}
+json {
+    authed authed.authed
+}
